@@ -2,7 +2,7 @@ import Projects from '../../projects/components/projects';
 import IndexActions from '../actions/index';
 import IndexStore from '../stores/index';
 import Spinner from '../../components/spinner';
-import React, {View, SegmentedControlIOS} from 'react-native';
+import React, {View, SegmentedControlIOS, Text} from 'react-native';
 import Container from '../../components/container';
 import {filters} from '../constants/index';
 import styles from '../styles/index';

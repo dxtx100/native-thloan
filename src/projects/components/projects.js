@@ -51,7 +51,7 @@ export default React.createClass({
                         <View style={styles.summary}>
                             <Text>{project.title}</Text>
                             <View style={styles.detail}>
-                                <Text style={styles.detailText}>{project.status}</Text>
+                                <Text style={styles.detailText}>{project.createdby}</Text>
                             </View>
                         </View>
                     </View>

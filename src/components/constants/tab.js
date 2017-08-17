@@ -1,22 +1,22 @@
 import Index from '../../index/components/index';
-import Activities from '../../activities/components/activities';
+import Back from '../../back/components/back';
 import Home from '../../home/components/home';
 
 export default [
     {
-        title: '首页',
+        title: '借钱',
         component: Index,
         name: 'index',
         icon: 'featured',
     },
     {
-        title: '活动',
-        component: Activities,
-        name: 'activities',
+        title: '还钱',
+        component: Back,
+        name: 'back',
         icon: 'history',
     },
     {
-        title: '我',
+        title: '个人中心',
         component: Home,
         name: 'home',
         icon: 'more',
