@@ -11,10 +11,16 @@ export default React.createClass({
         };
     },
     render: function(){
+        const image = {
+            borrow: require('../../../assets/images/foot/accout.png'),
+            back: require('../../../assets/images/foot/money.png'),
+            home: require('../../../assets/images/foot/user.png')
+        }
         return (
             <TabBarIOS>
-                <TabBarIOS.Item style={styles.ddd}
+                <TabBarIOS.Item style={styles.pt50}
                     title={'借钱'}
+                    icon={image.borrow}
                     renderAsOriginal={false}
                     selected={this.state.selectedTab === 'index'}
                     onPress={() => this.onChange('index')}
@@ -23,6 +29,7 @@ export default React.createClass({
                 </TabBarIOS.Item>
                 <TabBarIOS.Item
                     title={'还钱'}
+                    icon={image.back}
                     renderAsOriginal={false}
                     selected={this.state.selectedTab === 'back'}
                     onPress={() => this.onChange('back')}
@@ -31,6 +38,7 @@ export default React.createClass({
                 </TabBarIOS.Item>
                 <TabBarIOS.Item
                     title={'个人中心'}
+                    icon={image.home}
                     selected={this.state.selectedTab === 'home'}
                     onPress={() => this.onChange('home')}
                     >

@@ -7,39 +7,13 @@ export default React.createClass({
         return (
             <Container>
                 <View style={styles.container} >
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                </View>
-                <View style={styles.container} >
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                </View>
-                <View style={styles.container} >
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                </View>
-                <View style={styles.container} >
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                </View>
-                <View style={styles.container} >
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
-                    <Text style={styles.iconStyle}>&#xe607;</Text>
+                    <Text style={styles.iconStyle}>&#xe601;</Text>
+                    <Text style={styles.iconStyle}>&#xe602;</Text>
+                    <Text style={styles.iconStyle}>&#xe603;</Text>
+                    <Text style={styles.iconStyle}>&#xe604;</Text>
+                    <Text style={styles.iconStyle}>&#xe605;</Text>
+                    <Text style={styles.iconStyle}>&#xe606;</Text>
+                    <Text style={styles.iconStyle}>&#xe607;</Text>
                 </View>
             </Container>
         )
